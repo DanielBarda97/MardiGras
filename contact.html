@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="carousel.js"></script>
+
+  <title>Contact - Mardi Gras New Orleans 2021</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="logo">
+        <a href="index.html"><img src="imgs/logo.png" alt="Mardi Gras New Orleans Logo"></a>
+      </div>
+      <div id="ourPartners">
+        <section class="customer-logos slider">
+          <div class="slide"><a href="https://walk-ons.com/" target="_blank" alt="Walk-On's Bistreaux and Bar"><img src="imgs/suppliers/sup1.png" alt="Walk-On's Bistreaux and Bar"></a></div>
+          <div class="slide"><a href="https://www.bloodymarystours.com/hauntedmuseum.html" target="_blank" alt="Haunted Museum"><img src="imgs/suppliers/sup2.png" alt="Haunted Museum"></a></div>
+          <div class="slide"><a href="https://www.acehotel.com/neworleans/" target="_blank" alt="Ace Hotel New Orleans"><img src="imgs/suppliers/sup3.png" alt="Ace Hotel New Orleans"></a></div>
+          <div class="slide"><a href="https://www.marriott.com/hotels/travel/msyis-sheraton-new-orleans-hotel/" target="_blank" alt="Sheraton New Orleans Hotel"><img src="imgs/suppliers/sup4.png" alt="Sheraton New Orleans Hotel"></a></div>
+          <div class="slide"><a href="https://www.lcm.org/" target="_blank" alt="Louisiana Children's Museum"><img src="imgs/suppliers/sup5.png" alt="Louisiana Children's Museum"></a></div>
+          <div class="slide"><a href="https://www.ritzcarlton.com/en/hotels/new-orleans" target="_blank"alt="The Ritz-Carlton, New Orleans"><img src="imgs/suppliers/sup6.png" alt="The Ritz-Carlton, New Orleans"></a></div>
+          <div class="slide"><a href="https://www.premiumparking.com/P402" target="_blank" alt="Premium Parking - P402"><img src="imgs/suppliers/sup7.png" alt="Premium Parking - P402"></a></div>
+          <div class="slide"><a href="http://www.museumofdeath.net/nola" target="_blank" alt="Museum of Death"><img src="imgs/suppliers/sup8.png" alt="Museum of Death"></a></div>
+       </section>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home</a>
+            <a class="nav-item nav-link" href="about.html">About</a>
+            <a class="nav-item nav-link" href="media.html">Media</a>
+            <a class="nav-item nav-link" href="FAQ.html">FAQ</a>
+            <a class="nav-item nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <section class="contact">
+            <form id="form">
+              <label for="subject">Subject:</label>
+              <input type="text" name="subject" id="subject" placeholder="Put your subject here">
+              <span id="error0"></span>
+              <br>
+              <label for="first_name">First Name:</label>
+              <input name="first_name" type="text" id="first_name" placeholder="Put your first name here">
+              <span id="error1"></span>
+              <br>
+              <label for="last_name">Last Name:</label>
+              <input name="last_name" type="text" id="last_name" placeholder="Put your last name here">
+              <span id="error2"></span>
+              <br>
+              <label for="email">Email:</label>
+              <input name="email" type="text" id="email" placeholder="Put your email here">
+              <span id="error3"></span>
+              <br>
+              <label for="message">Your Message:</label>
+              <textarea name="message" id="message" cols="30" rows="5" placeholder="Your Message..."></textarea>
+              <span id="error4"></span>
+              <br>
+              <input  type="submit" id="button" value="Send The Message"/>
+            </form>
+            <script type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+            <script type="text/javascript">
+              emailjs.init('user_LxoCS2FXsa9jDRPwNWlCI')
+            </script>
+            <script src="validation.js"></script>
+          </section>
+        </div>
+        <div class="col-lg-3 float-right">
+          <aside>
+            <div class="asideBox">
+              <h3>Our Main Suppliers</h3>
+              <div class="supplierBox"><hr>
+                <a href="https://walk-ons.com/" target="_blank" alt="Walk-On's Bistreaux and Bar"><img src="imgs/suppliers/sup1.png" alt="Walk-On's Bistreaux and Bar"></a>
+                <p>
+                  There's really no better way to describe the uniqueness of Walk-On's Sports Bistreaux. We start every dish from scratch and use fresh ingredients to bring our mouthwatering, Cajun cuisine to life.
+                </p>
+              </div>
+              <div class="supplierBox"><hr>
+                <a href="https://www.marriott.com/hotels/travel/msyis-sheraton-new-orleans-hotel/" alt="sheraton-new-orleans-hotel" target="_blank"><img src="imgs/suppliers/sup4.png" alt="Sheraton New Orleans Hotel"></a>
+                <p>
+                  Book your stay at Sheraton New Orleans Hotel, where we welcome you with thoughtful amenities, great dining, a rooftop pool and a prime downtown location.
+                </p>
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="asideBox">
+              <h3>Our Mayor</h3>
+              <p>
+                <a href="about.html#MayorSpeking"><img src="imgs/mayor.jpg" alt="city mayor" class="cityMayor camping"></a>
+                As Mayor of the great City of New Orleans, I invite you to visit our city to experience the excitement of Mardi Gras!"… <a href="about.html#MayorSpeking"><span class="readMore">READ MORE</span></a>
+              </p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row footerHight">
+        <div class="col-sm">
+          <a href="about.html#OurFlag" class="flag">
+            <img src="imgs/mardi-gras-flag.jpg" alt="mardi-gras-flag">
+            <p>
+              MORE <br> ABOUT <br> OUR <br> COLORS
+            </p>
+          </a>
+        </div>
+        <div class="col-sm col-logo">
+          <div class="logo">
+            <a href="index.html"alt="Mardi Gras - Home Page"><img src="imgs/logo.png" alt="Mardi Gras New Orleans Logo"></a>
+            <a href="index.html"alt="Mardi Gras - Home Page"><img class="top" src="imgs/logo-gray.png" alt="Mardi Gras New Orleans Logo"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col footer">
+          <div class="left">
+            Copyright © 1996-2021 MardiGrasNewOrleans.com
+          </div>
+          <div class="right">
+            Built by Daniel Barda
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script> 
+</body>
+</html>
