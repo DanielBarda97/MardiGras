@@ -212,7 +212,7 @@ header #logo img {
 }
 
 .navbar a {
-  color: #F2F2F2 !important;
+  color: #f2f2f2 !important;
   width: 100%;
 }
 
@@ -230,7 +230,7 @@ h2 {
   width: 100px;
   height: 100px;
   margin-top: 10%;
-  border: 1px solid #0D0D0D;
+  border: 1px solid #0d0d0d;
   border-radius: 5px;
 }
 
@@ -277,7 +277,7 @@ h2 {
 .slick-track:before,
 .slick-track:after {
   display: table;
-  content: '';
+  content: "";
 }
 
 .slick-track:after {
@@ -295,7 +295,7 @@ h2 {
   min-height: 1px;
 }
 
-[dir='rtl'] .slick-slide {
+[dir="rtl"] .slick-slide {
   float: right;
 }
 
@@ -330,14 +330,14 @@ h2 {
 }
 
 body {
-  background-color: #F2F2F2 !important;
+  background-color: #f2f2f2 !important;
 }
 
 * {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -346,7 +346,7 @@ a {
 }
 
 aside a {
-  color: #9453A6;
+  color: #9453a6;
 }
 
 aside a :hover {
@@ -368,17 +368,18 @@ main {
   height: 100%;
 }
 
-main h3, main h4 {
-  font-family: 'Pattaya';
+main h3,
+main h4 {
+  font-family: "Pattaya";
 }
 
 main p {
-  font-family: 'Roboto', sans-serif;
-  color: #0D0D0D;
+  font-family: "Roboto", sans-serif;
+  color: #0d0d0d;
 }
 
 main hr {
-  border: 0.5px solid #F2CC0F;
+  border: 0.5px solid #f2cc0f;
   width: 100%;
   margin-top: 35px;
   margin-bottom: 30px;
@@ -388,7 +389,7 @@ main hr {
 
 main hr:before {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   top: 0;
   width: 33%;
@@ -398,7 +399,7 @@ main hr:before {
 
 main hr:after {
   position: absolute;
-  content: '';
+  content: "";
   right: 0;
   top: 0;
   width: 33%;
@@ -421,8 +422,8 @@ aside hr {
 
 .d-md-block-c {
   display: block !important;
-  text-shadow: 2px 2px 5px #0D0D0D !important;
-  color: #F2F2F2 !important;
+  text-shadow: 2px 2px 5px #0d0d0d !important;
+  color: #f2f2f2 !important;
 }
 
 .d-md-block-c p {
@@ -445,8 +446,9 @@ aside hr {
   border-radius: 5px;
 }
 
-.asideBox, .mainBox {
-  box-shadow: 0px 0px 10px #8CBF3F;
+.asideBox,
+.mainBox {
+  box-shadow: 0px 0px 10px #8cbf3f;
   padding: 5px 15px 5px 15px;
   box-sizing: border-box;
   margin-bottom: 15px;
@@ -458,7 +460,7 @@ aside hr {
 }
 
 .mainBox {
-  box-shadow: 0px 0px 10px #F2CC0F;
+  box-shadow: 0px 0px 10px #f2cc0f;
 }
 
 .supplierBox {
@@ -468,7 +470,7 @@ aside hr {
 
 .supplierBox img {
   border-radius: 50%;
-  border: 1px solid #0D0D0D;
+  border: 1px solid #0d0d0d;
   margin-top: 20px;
 }
 
@@ -498,7 +500,7 @@ aside hr {
   padding: 5px;
   overflow: hidden;
   margin-top: -35px;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .post img:hover + figcaption {
@@ -514,7 +516,7 @@ aside hr {
 }
 
 .post a {
-  color: #F2F2F2 !important;
+  color: #f2f2f2 !important;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -532,23 +534,25 @@ main section .button {
   margin: 5px;
   cursor: pointer;
   outline: none;
-  box-shadow: 0 0 3px #0D0D0D;
+  box-shadow: 0 0 3px #0d0d0d;
 }
 
 main section .button:hover {
-  box-shadow: 0 0 5px #0D0D0D;
+  box-shadow: 0 0 5px #0d0d0d;
 }
 
 main section .button:active {
-  box-shadow: 0 0 5px #0D0D0D;
+  box-shadow: 0 0 5px #0d0d0d;
   transform: translateY(0.5px);
 }
 
-main section [type=button], main section button, main section [type=submit] {
+main section [type="button"],
+main section button,
+main section [type="submit"] {
   background-image: url(../imgs/button.jpg);
   background-size: auto;
   background-repeat: no-repeat;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 main section .colorH {
@@ -587,7 +591,7 @@ main section .fr {
   background-repeat: no-repeat;
   border-radius: 5px;
   height: 300px;
-  color: #F2F2F2;
+  color: #f2f2f2;
   text-align: center;
   position: relative;
   text-shadow: 2px 2px 2px black;
@@ -610,7 +614,7 @@ main section .fr {
 
 .Walk-Ons .centerVertical p {
   font-size: 1.1rem;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 #LCM {
@@ -618,7 +622,7 @@ main section .fr {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  color: #F2F2F2;
+  color: #f2f2f2;
   border-radius: 5px;
   height: 100px;
   text-align: center;
@@ -643,7 +647,7 @@ main section .fr {
 
 .LCM .button {
   width: 100% !important;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .table thead th {
@@ -668,22 +672,22 @@ main section .fr {
 }
 
 .green {
-  background-color: #8CBF3F;
+  background-color: #8cbf3f;
 }
 
 .yellow {
-  background-color: #F2CC0F;
+  background-color: #f2cc0f;
 }
 
 .purple {
-  background-color: #9453A6;
+  background-color: #9453a6;
 }
 
 .colorsP {
   margin: 0;
   padding: 8px;
   min-height: 150px;
-  color: #F2F2F2;
+  color: #f2f2f2;
   text-shadow: 2px 2px 2px rgba(13, 13, 13, 0.65);
   text-align: justify;
 }
@@ -715,11 +719,11 @@ main section .fr {
 .closeButton {
   width: 80px;
   height: 30px;
-  color: #F2F2F2;
+  color: #f2f2f2;
   border-radius: 20px;
   cursor: pointer;
   border: 1px solid #1d1d1d;
-  box-shadow: 0px 2px 6px #0D0D0D;
+  box-shadow: 0px 2px 6px #0d0d0d;
   outline: none !important;
 }
 
@@ -735,7 +739,7 @@ main section .fr {
   letter-spacing: 5px;
   font-weight: bold;
   font-size: 2.5rem;
-  color: #8CBF3F;
+  color: #8cbf3f;
   text-transform: uppercase;
 }
 
@@ -750,7 +754,7 @@ main section .fr {
   display: block;
   font-style: italic;
   font-size: 1.5rem;
-  color: #9453A6;
+  color: #9453a6;
 }
 
 .accordion-section .panel-default .panel-title a:hover {
@@ -758,11 +762,11 @@ main section .fr {
 }
 
 .accordion-section .panel-default .panel-title a:after {
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   font-style: normal;
   font-size: 3rem;
   content: "\f106";
-  color: #8CBF3F;
+  color: #8cbf3f;
   float: right;
   margin-top: -12px;
 }
@@ -786,7 +790,9 @@ main section .fr {
   margin-top: 10px;
 }
 
-.contact form input[type=text], .contact form select, .contact form textarea {
+.contact form input[type="text"],
+.contact form select,
+.contact form textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -795,17 +801,17 @@ main section .fr {
   resize: vertical;
 }
 
-.contact form input[type=submit] {
+.contact form input[type="submit"] {
   width: 100%;
   border: 0;
   border-radius: 4px;
   padding: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-  color: #F2F2F2;
+  color: #f2f2f2;
   text-shadow: 0px 1px 3px black;
 }
 
-.contact form input[type=submit]:active {
+.contact form input[type="submit"]:active {
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
   outline: none;
   border: none;
@@ -820,7 +826,7 @@ footer {
   margin: auto;
   background-position: center 50vh;
   background-attachment: fixed;
-  color: #F2F2F2;
+  color: #f2f2f2;
   text-shadow: 2px 2px 2px black;
 }
 
@@ -866,7 +872,7 @@ footer a p {
   line-height: 1.5;
   font-weight: bold;
   margin: 0;
-  color: #F2F2F2;
+  color: #f2f2f2;
 }
 
 .logo {
